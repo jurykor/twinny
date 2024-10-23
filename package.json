@@ -421,11 +421,7 @@
     "watch-tests": "tsc -p . -w --outDir out",
     "watch": "node scripts/build.mjs --watch",
     "jk_package_update": "npx npm i --package-lock-only",
-    "jk_package_install": "npx npm ci",
-    "jk_compile": "npx tsc -p ./",
-    "jk_pack": "npx vsce pack",
-    "jk_lint": "npx eslint \"src/**/*.ts\"",
-    "jk_watch": "npx tsc -w -p ./"
+    "jk_package_install": "npx npm ci"
   },
   "devDependencies": {
     "@hyrious/esbuild-plugin-commonjs": "^0.2.4",
