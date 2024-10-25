@@ -420,8 +420,8 @@
     "vscode:publish": "npm exec vsce publish",
     "watch-tests": "tsc -p . -w --outDir out",
     "watch": "node scripts/build.mjs --watch",
-    "jk_package_update": "npx npm i --package-lock-only",
-    "jk_package_install": "npx npm ci"
+    "jk_package_update": "npm i --package-lock-only",
+    "jk_package_install": "npm ci"
   },
   "devDependencies": {
     "@hyrious/esbuild-plugin-commonjs": "^0.2.4",
