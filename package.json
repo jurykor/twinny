@@ -429,6 +429,7 @@
     "vscode:publish": "npm exec vsce publish",
     "watch-tests": "tsc -p . -w --outDir out",
     "watch": "node scripts/build.mjs --watch",
+    "jk_clean": "rm -rf ./node_modules ./out && npm cache clean --force",
     "jk_package_update": "npm i --package-lock-only",
     "jk_package_install": "npm ci"
   },
