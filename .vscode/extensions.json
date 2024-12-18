@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "mhutchie.git-graph",
+        "letmaik.git-tree-compare",
+        "hashhar.gitattributes",
+        "codezombiech.gitignore",
+        "editorconfig.editorconfig",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "mikestead.dotenv",
+        "dbaeumer.vscode-eslint",
+        "xabikos.javascriptsnippets",
+        "christian-kohler.npm-intellisense"
+    ]
+}
